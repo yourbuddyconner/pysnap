@@ -1,7 +1,7 @@
 # PySnap [![travis][travis-image]][travis-url] [![pypi][pypi-image]][pypi-url]
 
 [travis-image]: https://travis-ci.com/yourbuddyconner/pysnap.svg?style=flat
-[travis-url]: https://travis-ci.org/yourbuddyconner/pysnap
+[travis-url]: https://travis-ci.com/yourbuddyconner/pysnap
 [pypi-image]: https://img.shields.io/pypi/v/pysnap.svg?style=flat
 [pypi-url]: https://pypi.python.org/pypi/pysnap
 
