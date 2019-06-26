@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from snapshottest.file import FileSnapshot
+from pysnap.file import FileSnapshot
 
 
 def api_client_get(url):
@@ -31,7 +31,7 @@ class SomeObject(object):
 def test_object(snapshot):
     """
     Test a snapshot with a custom object. The object will be represented in the snapshot using
-    `snapshottest.GenericRepr`. The snapshot will only match if the object's repr remains the same.
+    `pysnap.GenericRepr`. The snapshot will only match if the object's repr remains the same.
     """
     test_value = SomeObject(3)
     snapshot.assert_match(test_value)

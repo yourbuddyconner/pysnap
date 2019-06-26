@@ -21,10 +21,10 @@ def format_line(line):
 
 
 class PrettyDiff(object):
-    def __init__(self, obj, snapshottest):
+    def __init__(self, obj, pysnap):
         self.pretty = Formatter()
         self.differ = Differ()
-        self.snapshottest = snapshottest
+        self.pysnap = pysnap
         if isinstance(obj, dict):
             obj = SortedDict(**obj)
         self.obj = self.pretty(obj)

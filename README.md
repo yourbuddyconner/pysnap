@@ -1,7 +1,7 @@
 # PySnap [![travis][travis-image]][travis-url] [![pypi][pypi-image]][pypi-url]
 
 [travis-image]: https://travis-ci.com/yourbuddyconner/pysnap.svg?style=flat
-[travis-url]: https://travis-ci.org/yourbuddyconner/pysnap
+[travis-url]: https://travis-ci.com/yourbuddyconner/pysnap
 [pypi-image]: https://img.shields.io/pypi/v/pysnap.svg?style=flat
 [pypi-url]: https://pypi.python.org/pypi/pysnap
 
@@ -115,3 +115,8 @@ Instead of rendering the graphical UI, which would require building the entire a
 ## License
 
 [MIT License](https://github.com/yourbuddyconner/pysnap/blob/master/LICENSE)
+
+[![coveralls][coveralls-image]][coveralls-url]
+
+[coveralls-image]: https://coveralls.io/repos/yourbuddyconner/pysnap/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/github/yourbuddyconner/pysnap?branch=master

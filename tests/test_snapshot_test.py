@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 import pytest
 
-from snapshottest.module import SnapshotModule, SnapshotTest
+from pysnap.module import SnapshotModule, SnapshotTest
 
 
 class GenericSnapshotTest(SnapshotTest):

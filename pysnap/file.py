@@ -42,7 +42,7 @@ class FileSnapshotFormatter(BaseFormatter):
         return FileSnapshot(relative_snapshot_filename)
 
     def get_imports(self):
-        return (('snapshottest.file', 'FileSnapshot'),)
+        return (('pysnap.file', 'FileSnapshot'),)
 
     def format(self, value, indent, formatter):
         return repr(value)

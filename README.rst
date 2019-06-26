@@ -1,21 +1,21 @@
 PySnap |travis| |pypi|
 ============================
 
-**Note:** This project is just a fork of the package `snapshottest` which lives [here](https://github.com/syrusakbary/snapshottest). It had been mostly abandoned, so I kicked the wheels and got it back in working order. Contributions are welcome! 
+Note: This project is just a fork of the package `snapshottest` which lives here: https://github.com/syrusakbary/snapshottest. It had been mostly abandoned, so I kicked the wheels and got it back in working order. Contributions are welcome!
 
 Snapshot testing is a way to test your APIs without writing actual test
-cases.
+cases.pip install doc8
 
 1. A snapshot is a single state of your API, saved in a file.
 2. You have a set of snapshots for your API endpoints.
 3. Once you add a new feature, you can generate *automatically* new
    snapshots for the updated API.
 
-.. raw:: html
+.. code:: html
 
    <p align="center">
 
-.. raw:: html
+.. code:: html
 
    </p>
 
@@ -156,3 +156,5 @@ License <https://github.com/yourbuddyconner/pysnap/blob/master/LICENSE>`__
    :target: https://travis-ci.com/yourbuddyconner/pysnap
 .. |pypi| image:: https://img.shields.io/pypi/v/pysnap.svg?style=flat
    :target: https://pypi.python.org/pypi/pysnap
+.. |coveralls| image:: https://coveralls.io/repos/yourbuddyconner/pysnap/badge.svg?branch=master&service=github
+   :target: https://coveralls.io/github/yourbuddyconner/pysnap?branch=master

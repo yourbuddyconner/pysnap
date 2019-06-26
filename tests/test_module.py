@@ -2,8 +2,8 @@ from __future__ import unicode_literals
 
 import pytest
 
-from snapshottest import Snapshot
-from snapshottest.module import SnapshotModule
+from pysnap import Snapshot
+from pysnap.module import SnapshotModule
 
 
 class TestSnapshotModuleLoading(object):

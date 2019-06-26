@@ -8,11 +8,11 @@ from .module import SnapshotModule
 from .reporting import reporting_lines
 from .unittest import TestCase
 
-log = logging.getLogger('nose.plugins.snapshottest')
+log = logging.getLogger('nose.plugins.pysnap')
 
 
 class SnapshotTestPlugin(Plugin):
-    name = 'snapshottest'
+    name = 'pysnap'
     enabled = True
 
     separator1 = "=" * 70

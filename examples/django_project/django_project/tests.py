@@ -1,6 +1,6 @@
 import unittest
 
-from snapshottest.django import SimpleTestCase
+from pysnap.django import SimpleTestCase
 
 
 def api_client_get(url):

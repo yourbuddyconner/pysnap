@@ -7,7 +7,7 @@ from .reporting import reporting_lines, diff_report
 
 
 def pytest_addoption(parser):
-    group = parser.getgroup('snapshottest')
+    group = parser.getgroup('pysnap')
     group.addoption(
         '--snapshot-update',
         action='store_true',

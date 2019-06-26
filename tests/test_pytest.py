@@ -1,6 +1,6 @@
 import pytest
 
-from snapshottest.pytest import PyTestSnapshotTest
+from pysnap.pytest import PyTestSnapshotTest
 
 
 @pytest.fixture
