@@ -1,7 +1,7 @@
 PySnap |travis| |pypi|
 ============================
 
-Note: This project is just a fork of the package `snapshottest` which lives here: https://github.com/syrusakbary/snapshottest. It had been mostly abandoned, so I kicked the wheels and got it back in working order. Contributions are welcome!
+Note: This project is just a fork of the package ``snapshottest`` which lives here: https://github.com/syrusakbary/snapshottest. It had been mostly abandoned, so I kicked the wheels and got it back in working order. Contributions are welcome!
 
 Snapshot testing is a way to test your APIs without writing actual test
 cases.pip install doc8
