@@ -100,7 +100,7 @@ class GenericFormatter(BaseFormatter):
         return repr(value)
 
     def get_imports(self):
-        return [('snapshottest', 'GenericRepr')]
+        return [('pysnap', 'GenericRepr')]
 
     def assert_value_matches_snapshot(self, test, test_value, snapshot_value):
         test_value = GenericRepr.from_value(test_value)

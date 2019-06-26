@@ -1,5 +1,5 @@
 from lists.models import List
-from snapshottest.django import TestCase
+from pysnap.django import TestCase
 
 
 class ListTest(TestCase):

@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 import pytest
 import six
 
-from snapshottest.formatter import Formatter
+from pysnap.formatter import Formatter
 
 
 @pytest.mark.parametrize("text_value, expected", [

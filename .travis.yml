@@ -12,7 +12,7 @@ cache: pip
 install:
 - pip install -e .[test]
 script:
-- py.test --cov=snapshottest tests examples/pytest
+- py.test --cov=pysnap tests examples/pytest
 # Run Pytest Example
 - py.test examples/pytest
 # Run Unittest Example

@@ -3,7 +3,7 @@ from django.test import TestCase as dTestCase
 from django.test import SimpleTestCase as dSimpleTestCase
 from django.test.runner import DiscoverRunner
 
-from snapshottest.reporting import reporting_lines
+from pysnap.reporting import reporting_lines
 from .unittest import TestCase as uTestCase
 from .module import SnapshotModule
 
@@ -41,7 +41,7 @@ class TestRunner(DiscoverRunner):
 
     def print_report(self):
         print("\n" + self.separator1)
-        print('SnapshotTest summary')
+        print('PySnap summary')
         print(self.separator2)
         for line in reporting_lines('python manage.py test'):
             print(line)

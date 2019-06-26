@@ -18,10 +18,10 @@ setup(
     # custom PyPI classifier for pytest plugins
     entry_points={
         'pytest11': [
-            'snapshottest = snapshottest.pytest',
+            'pysnap = pysnap.pytest',
         ],
         'nose.plugins.0.10':
-        ['snapshottest = snapshottest.nose:SnapshotTestPlugin']
+        ['pysnap = pysnap.nose:SnapshotTestPlugin']
     },
     install_requires=['six>=1.10.0', 'termcolor'],
     tests_require=tests_require,

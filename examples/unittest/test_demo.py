@@ -1,5 +1,5 @@
 import unittest
-import snapshottest
+import pysnap
 
 
 def api_client_get(url):
@@ -8,7 +8,7 @@ def api_client_get(url):
     }
 
 
-class TestDemo(snapshottest.TestCase):
+class TestDemo(pysnap.TestCase):
 
     def setUp(self):
         pass

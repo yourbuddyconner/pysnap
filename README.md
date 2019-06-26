@@ -115,3 +115,8 @@ Instead of rendering the graphical UI, which would require building the entire a
 ## License
 
 [MIT License](https://github.com/yourbuddyconner/pysnap/blob/master/LICENSE)
+
+[![coveralls][coveralls-image]][coveralls-url]
+
+[coveralls-image]: https://coveralls.io/repos/yourbuddyconner/pysnap/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/github/yourbuddyconner/pysnap?branch=master
