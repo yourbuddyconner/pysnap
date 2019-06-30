@@ -11,14 +11,6 @@ cases.pip install doc8
 3. Once you add a new feature, you can generate *automatically* new
    snapshots for the updated API.
 
-.. code:: html
-
-   <p align="center">
-
-.. code:: html
-
-   </p>
-
 Installation
 ------------
 
@@ -97,22 +89,33 @@ example <https://github.com/yourbuddyconner/pysnap/tree/master/examples/django_p
 Contributing
 ============
 
-After cloning this repo, ensure dependencies are installed by running:
+After cloning this repo and configuring a virtualenv for snapshottest
+(optional, but highly recommended), ensure dependencies are installed by
+running:
 
 .. code:: sh
 
-    pip install -e ".[test]"
+    make install
 
 After developing, the full test suite can be evaluated by running:
 
 .. code:: sh
 
-    py.test
+    make lint
+    # and
+    make test
+
+If you change this ``README.md``, you'll need to have pandoc installed to update its ``README.rst`` counterpart (used by PyPI),
+which can be done by running:
+
+::
+
+    make README.rst
 
 Notes
 =====
 
-This package is heavily insipired in `jest snapshot
+This package is heavily inspired in `jest snapshot
 testing <https://facebook.github.io/jest/docs/snapshot-testing.html>`__.
 
 Reasons for use this package
