@@ -8,7 +8,7 @@ install:
 .PHONY: test
 test:
 # Run Pytest tests (including examples)
-	py.test --cov=snapshottest tests examples/pytest
+	py.test --cov=pysnap tests examples/pytest
 
 # Run Unittest Example
 	python examples/unittest/test_demo.py
